@@ -27,8 +27,8 @@ setup(
     author_email="eternal.blizzard23@gmail.com",
     install_requires=[
         "graphene>=3.0.0,<4",
-        "graphene-django>=3.0.0b7,<4",
-        "graphql-core>=3.1.2,<4",
+        "graphene-django~=3.0.0",
+        "graphql-core~=3.1.0",
     ],
 
     setup_requires=["pytest-runner"],
